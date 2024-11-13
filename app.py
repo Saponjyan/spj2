@@ -10,6 +10,24 @@ python passenger_wsgi.py
 Enter to the virtual environment.To enter to virtual environment, run the command:
 source /home/deddvywa/virtualenv/saponjyan/3.10/bin/activate && cd /home/deddvywa/saponjyan
 '''
+
+
+'''
+…or create a new repository on the command line
+echo "# spj2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Saponjyan/spj2.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Saponjyan/spj2.git
+git branch -M main
+git push -u origin main
+
+'''
 import os
 from img import img
 from cs50 import SQL

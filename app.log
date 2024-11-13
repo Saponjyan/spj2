@@ -1115,3 +1115,4 @@
 2024-11-13 12:07:24,465 INFO 127.0.0.1 - - [13/Nov/2024 12:07:24] "GET /ai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
 2024-11-13 12:07:24,475 INFO 127.0.0.1 - - [13/Nov/2024 12:07:24] "GET /ai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
 2024-11-13 12:07:24,616 INFO 127.0.0.1 - - [13/Nov/2024 12:07:24] "GET /ai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-13 12:07:24,664 INFO 127.0.0.1 - - [13/Nov/2024 12:07:24] "[36mGET /ai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
