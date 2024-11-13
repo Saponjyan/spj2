@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Text to Image 
+{% endblock %}
+
+{% block main %}
+
+
+<form paddig =2 action="/ai" method="post" id="loadform">
+
+        <h5><a style="color: white; background: black;" href="https://t.me/SPJ_Token">Your image in telegram channel @SPJ_Token</a></h5>
+
+        <input style="color: white; border-radius: 30px;
+        border-color: transparent; background: #000000a6;
+        border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.75);
+        line-height: normal; font-size: 25px;
+        padding-inline-start: 3%;"  autocomplete="off"  id = "inp" name="prompt" placeholder="Enter Your prompt" type="text"/>
+        
+
+        <button class="section-scroll btn btn-border-w btn-circle" type="submit" id="load">Send</button>
+        <br> 
+
+        </form>
+
+{% endblock %}
